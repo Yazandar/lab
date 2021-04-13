@@ -105,5 +105,6 @@ function game(){
 
 game();
 alert ('You answered correctly '+ score +' questions');
+alert('your score is '+score+'/7');
 alert('I wish you had fun '+visitor);
 
