@@ -1,5 +1,5 @@
 'use strict';
-
+function checkEveryThing(){
 let visitor = prompt('whats your name');
 alert('Hello '+visitor+', and welcome to my web page');
 alert ('Let me introduce myself by this yes/no game');
@@ -131,5 +131,6 @@ alert('my favourites are: banana, apple, orange');
 //game();
 alert ('You answered correctly '+ score +' questions');
 alert('your score is '+score+'/7');
-alert('I wish you had fun '+visitor);
+alert('I wish you had fun '+visitor);}
+checkEveryThing();
 
