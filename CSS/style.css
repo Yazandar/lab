@@ -1,14 +1,39 @@
 header {
-    
-   background-color: yellow; 
+  
+   background-color:#ffff00; 
    position: sticky;
    top: 0;
    text-align: center;
+   
+}
+
+body {
+    background-color: rgb(144, 167, 236);
 }
 
 main {
     /* to test the sticky header */
     padding-bottom: 2000px;
+    
+}
+
+main .image {
+    text-align: center;
+}
+
+ul :nth-child(odd) {
+    background-color: rgb(152, 155, 137);
+    
+}
+
+footer img {
+    width: 60px;
+    left: 30px;
+    float: left;
+}
+
+footer h2 {
+    display: inline-block;
 }
 
 
